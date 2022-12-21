@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+}
+
+input[type = 'submit']{
+    color: white;
+    background-color: blue;
+}
+
+.form-header{
+    text-align: center;
+}
+
+.form-option{
+    text-decoration: none;
+}
+
+.previous a{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.previous a:hover{
+    color: white;
+}
+
+.errormsg {
+    text-align: center;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+.errorContainer {
+    background-color: #BD362F;
+    opacity: 0.8;
+}
+
